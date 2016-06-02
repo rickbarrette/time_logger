@@ -35,7 +35,7 @@ Redmine::Plugin.register :time_logger do
         }
         
     menu :top_menu, :time_loggers, { :controller => :time_loggers, :action => :index }, :caption => 'Time Loggers', :if => Proc.new { TimeLogger.find_by_user_id(User.current)}
-    menu :top_menu, :time_loggers_pause, { :controller => :time_loggers, :action => :pause }, :caption => 'Pause', :if => Proc.new { !TimeLogger.find_by_user_id(User.current).paused if TimeLogger.find_by_user_id(User.current) 
+    menu :top_menu, :time_loggers_pause, { :controller => :time_loggers, :action => :pause }, :caption => 'Pause', :if => Proc.new { !TimeLogger.find_by_user_id(User.current).paused if TimeLogger.find_by_user_id(User.current) }
     menu :top_menu, :time_loggers_resume, { :controller => :time_loggers, :action => :resume }, :caption => 'Resume', :if => Proc.new { TimeLogger.find_by_user_id(User.current).paused if TimeLogger.find_by_user_id(User.current) }
     menu :top_menu, :time_loggers_stop, { :controller => :time_loggers, :action => :stop }, :caption => 'Stop', :if => Proc.new { !TimeLogger.find_by_user_id(User.current).paused if TimeLogger.find_by_user_id(User.current) }
 end
