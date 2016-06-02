@@ -37,8 +37,8 @@ class TimeLoggersController < ApplicationController
             @time_logger.started_on = Time.now
             @time_logger.paused = false
             if @time_logger.save
-                #render_menu
-                redirect_to :back
+                render_menu
+                #redirect_to :back
             else
                 flash[:error] = l(:resume_time_logger_error)
             end
@@ -54,8 +54,8 @@ class TimeLoggersController < ApplicationController
             @time_logger.time_spent = @time_logger.hours_spent
             @time_logger.paused = true
             if @time_logger.save
-                #render_menu
-                redirect_to :back
+                render_menu
+                #redirect_to :back
             else
                 flash[:error] = l(:suspend_time_logger_error)
             end
