@@ -33,4 +33,8 @@ Redmine::Plugin.register :time_logger do
             :param => :project_id,
             :if => Proc.new { User.current.logged? }
         }
+        
+    menu :top_menu, :time_loggers, { :controller => :time_loggers, :action => :index }, :caption => 'Time Loggers', :if => Proc.new { global_allowed_to?(User.current, :log_time) }
+    menu :top_menu, :time_loggers_resume, { :controller => :time_loggers, :action => :resume }, :caption => 'Resume', :if => Proc.new { time_logger_for(User.current).paused if time_logger_for(User.current) }
+    menu :top_menu, :time_loggers_stop, { :controller => :time_loggers, :action => :stop }, :caption => 'Stop', :if => Proc.new { !time_logger_for(User.current).paused if time_logger_for(User.current) }
 end
