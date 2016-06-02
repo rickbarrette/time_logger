@@ -42,6 +42,7 @@ class TimeLoggersController < ApplicationController
                 flash[:error] = l(:resume_time_logger_error)
             end
         end
+        redirect_to(:back)
     end
 
     def suspend
@@ -58,6 +59,7 @@ class TimeLoggersController < ApplicationController
                 flash[:error] = l(:suspend_time_logger_error)
             end
         end
+        redirect_to(:back)
     end
 
     def stop
