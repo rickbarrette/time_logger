@@ -1,7 +1,7 @@
-.icon-clock { background-image: url(../images/colorized/clock.gif); }
-.icon-start { background-image: url(../images/colorized/time_start.png); }
-.icon-pause { background-image: url(../images/colorized/time_pause.png); }
-.icon-stop { background-image: url(../images/colorized/time_stop.png); }
+.icon-clock { background-image: url(../images/colorized/clock.gif); padding-right: 10px;}
+.icon-start { background-image: url(../images/colorized/time_start.png); padding-right: 10px;}
+.icon-pause { background-image: url(../images/colorized/time_pause.png); padding-right: 10px;}
+.icon-stop { background-image: url(../images/colorized/time_stop.png); padding-right: 10px;}
 
 .icon-action {
     background-repeat: no-repeat;
