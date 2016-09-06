@@ -14,10 +14,10 @@
     padding-bottom: 4px;
 }
 
-.icon-start-action { background-image: url(../colorized/images/start.png); }
-.icon-pause-action { background-image: url(../colorized/images/pause.png); }
-.icon-stop-action { background-image: url(../colorized/images/stop.png); }
-.icon-list-action { background-image: url(../colorized/images/list.png); }
+.icon-start-action { background-image: url(../images/colorized/start.png); }
+.icon-pause-action { background-image: url(../images/colorized/pause.png); }
+.icon-stop-action { background-image: url(../images/colorized/stop.png); }
+.icon-list-action { background-image: url(../images/colorized/list.png); }
 
 /* use this if you want the logger in top bar */
 #time-logger-menu { margin-right: 8px; }
