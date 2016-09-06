@@ -1,7 +1,7 @@
-.icon-clock { background-image: url(../images/colorized/clock.gif); margin: 10px;}
-.icon-start { background-image: url(../images/colorized/time_start.png); margin: 10px;}
-.icon-pause { background-image: url(../images/colorized/time_pause.png); margin: 10px;}
-.icon-stop { background-image: url(../images/colorized/time_stop.png); margin: 10px;}
+.icon-clock { background-image: url(../images/colorized/clock.gif); display: block;}
+.icon-start { background-image: url(../images/colorized/time_start.png); display: block;}
+.icon-pause { background-image: url(../images/colorized/time_pause.png); display: block;}
+.icon-stop { background-image: url(../images/colorized/time_stop.png); display: block;}
 
 .icon-action {
     background-repeat: no-repeat;
@@ -14,10 +14,10 @@
     padding-bottom: 4px;
 }
 
-.icon-start-action { background-image: url(../images/colorized/start.png); margin: 10px;}
-.icon-pause-action { background-image: url(../images/colorized/pause.png); margin: 10px;}
-.icon-stop-action { background-image: url(../images/colorized/stop.png); margin: 10px;}
-.icon-list-action { background-image: url(../images/colorized/list.png); margin: 10px;}
+.icon-start-action { background-image: url(../images/colorized/start.png); display: block;}
+.icon-pause-action { background-image: url(../images/colorized/pause.png); display: block;}
+.icon-stop-action { background-image: url(../images/colorized/stop.png); display: block;}
+.icon-list-action { background-image: url(../images/colorized/list.png); display: block;}
 
 /* use this if you want the logger in top bar */
 #time-logger-menu { margin-right: 8px; }
