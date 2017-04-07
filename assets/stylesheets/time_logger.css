@@ -1,7 +1,7 @@
-.icon-clock { background-image: url(../images/colorized/clock.gif); }
-.icon-start { background-image: url(../images/colorized/time_start.png); }
-.icon-pause { background-image: url(../images/colorized/time_pause.png); }
-.icon-stop { background-image: url(../images/colorized/time_stop.png); }
+.icon-clock { background-image: url(../images/clock.gif); }
+.icon-start { background-image: url(../images/time_start.png); }
+.icon-pause { background-image: url(../images/time_pause.png); }
+.icon-stop { background-image: url(../images/time_stop.png); }
 
 .icon-action {
     background-repeat: no-repeat;
@@ -14,10 +14,10 @@
     padding-bottom: 4px;
 }
 
-.icon-start-action { background-image: url(../images/colorized/start.png); }
-.icon-pause-action { background-image: url(../images/colorized/pause.png); }
-.icon-stop-action { background-image: url(../images/colorized/stop.png); }
-.icon-list-action { background-image: url(../images/colorized/list.png); }
+.icon-start-action { background-image: url(../images/start.png); }
+.icon-pause-action { background-image: url(../images/pause.png); }
+.icon-stop-action { background-image: url(../images/stop.png); }
+.icon-list-action { background-image: url(../images/list.png); }
 
 /* use this if you want the logger in top bar 
 #time-logger-menu { margin-right: 8px; }
